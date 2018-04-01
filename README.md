@@ -1,0 +1,3 @@
+# SCPmentoring
+
+hacking, programming
