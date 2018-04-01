@@ -1,32 +1,33 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <math.h>
+#include <iostream>
+using namespace std;
+
 int main()
 {
-	int i = a;
-	int score;
-
-	switch(ninput)
-	{
-
-		case 1 : 
-		(score >= 90)
-        cout << 'A' << "\n";
-
-    	case 2:
-    	(score >= 80);
-         cout << 'B' << "\n";
-
-    	case 3:
-        (score >= 70);
-    	cout << 'C' << "\n";
-    	
-    	case 4:
-    	(score >= 60);
-    	cout << 'D' << "\n";
-
-    	default:
-    	 case 5:
-    	cout << 'F' << "\n";
-
-        return 0;
-
-	}
+   int n;
+   scanf("%d", &n);
+   
+   switch((int)floor(n/10.0))
+   {
+      case 10: 
+        cout << 'A';   
+   break;
+      case 9:
+   cout << 'A';
+        break;
+      case 8:
+   cout << 'B';
+   break;
+      case 7:
+   cout << 'C';
+   break;
+      case 6:
+   cout << 'D';
+   break;
+      default:
+   cout << 'F';
+   break;
+   }
+   return 0;
+}
